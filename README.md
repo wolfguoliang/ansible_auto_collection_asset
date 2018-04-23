@@ -1,6 +1,2 @@
-# ansible_auto_collection_asset
-python 调用ansible的api 来实现自动化收集ansible操作机器的资产信息
-<<<<<<< HEAD
-首先建立一个mysql的表，然后在ansible主机上执行py文件，输入想录入资产的ansbile组
-=======
->>>>>>> 965ec8992080fa3d526c63eb329268c0fe600dec
+资产管理对于任何公司来说都是件非常重要的事情，大家不用cmdb都有点不好意思出来见人了，上了CMDB之后基础就是资产这块，
+为了不苦逼似的一个个往里边录入，于是用python 结合Ansible 写了个自动收集资产信息，然后拿出自己需要关注的字段，自动insert 到cmdb 数据库里边去。
