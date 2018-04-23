@@ -1,3 +1,4 @@
+#创建资产存储的表
 CREATE TABLE `ansible_host` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `hostname` varchar(200) COLLATE utf8_bin DEFAULT NULL,
