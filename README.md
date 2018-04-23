@@ -1,0 +1,2 @@
+# ansible_auto_collection_asset
+python 调用ansible的api 来实现自动化收集ansible操作机器的资产信息
